@@ -1,4 +1,4 @@
-### Using Plugins
+## Using Plugins
 
 To make customizing your configuration easier, preact-cli supports plugins. Plugins are essentially `preact.config.js` files that are published to npm as modules that you can install.  Here's the process:
 
@@ -13,7 +13,7 @@ To make customizing your configuration easier, preact-cli supports plugins. Plug
     };
     ```
 
-### List of Plugins
+## List of Plugins
 
-- [preact-cli-lodash](https://github.com/SaraVieira/preact-cli-lodash): Optimize your builds using `babel-plugin-lodash` and `lodash-webpack-plugin`.
-- [preact-cli-postcss](https://github.com/SaraVieira/preact-cli-postcss): Replaces default PostCSS config with your `postcss.config.js`
+- [**preact-cli-lodash**](https://github.com/SaraVieira/preact-cli-lodash): Optimize builds using `babel-plugin-lodash` & `lodash-webpack-plugin`.
+- [**preact-cli-postcss**](https://github.com/SaraVieira/preact-cli-postcss): Replaces default PostCSS config with your `postcss.config.js`
