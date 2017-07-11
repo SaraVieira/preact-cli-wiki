@@ -1,8 +1,8 @@
-# Some common recipes for use in `preact.config.js`.
+## Some common recipes for use in `preact.config.js`.
 
 See [`webpack-helpers`](https://github.com/developit/preact-cli/blob/master/docs/webpack-helpers.md) for reference on helpers argument.
 
-## Customising babel options (using loader helpers)
+### Customising babel options (using loader helpers)
 
 To customize babel config `babel-loader` options have to be changed.
 
@@ -16,7 +16,7 @@ export default (config, env, helpers) => {
 };
 ```
 
-## Disabling source maps (using plugin helpers)
+### Disabling source maps (using plugin helpers)
 
 ```
 export default (config, env, helpers) => {
@@ -25,7 +25,7 @@ export default (config, env, helpers) => {
 }
 ```
 
-## Conditional changes based on env
+### Conditional changes based on env
 
 ```
 export default (config, env, helpers) => {
@@ -43,7 +43,7 @@ export default (config, env, helpers) => {
 }
 ```
 
-## Setting proxy for dev server (using config directly)
+### Setting proxy for dev server (using config directly)
 
 ```
 export default config => {
@@ -57,7 +57,7 @@ export default config => {
 };
 ```
 
-## Removing plugin, loader or rule
+### Removing plugin, loader or rule
 
 Each wrapper for plugin, loader or rule comes with it's position in array so that it can be easily removed.
 ```
