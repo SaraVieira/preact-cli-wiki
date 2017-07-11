@@ -7,7 +7,7 @@ To make customizing your configuration easier, preact-cli supports plugins. Plug
 
     ```js
     import foo from 'preact-cli-foo';
-    export default (config, helpers) => {
+    export default (config, env, helpers) => {
       config = foo(config, helpers);
       return config;
     };
