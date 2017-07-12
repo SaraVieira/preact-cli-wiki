@@ -1,4 +1,4 @@
-## Using Plugins
+## Using Plugins via `preact.config.js`
 
 To make customizing your configuration easier, preact-cli supports plugins. Plugins are essentially `preact.config.js` files that are published to npm as modules that you can install.  Here's the process:
 
