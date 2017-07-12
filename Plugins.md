@@ -3,7 +3,8 @@
 To make customizing your configuration easier, preact-cli supports plugins. Plugins are essentially `preact.config.js` files that are published to npm as modules that you can install.  Here's the process:
 
 1. Install it:  `npm install --save-dev preact-cli-foo`
-2. Invoke it from your `preact.config.js`:
+2. Create `preact.config.js` file in project directory.
+3. Invoke the plugin from your `preact.config.js`:
 
     ```js
     import foo from 'preact-cli-foo';
