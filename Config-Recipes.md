@@ -1,4 +1,4 @@
-## Some common recipes for use in `preact.config.js`.
+## Some common recipes for use in `preact.config.js`
 
 See [`webpack-helpers`](https://github.com/developit/preact-cli/blob/master/docs/webpack-helpers.md) for reference on helpers argument.
 
