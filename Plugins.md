@@ -18,3 +18,5 @@ To make customizing your configuration easier, preact-cli supports plugins. Plug
 
 - [**preact-cli-lodash**](https://github.com/SaraVieira/preact-cli-lodash): Optimize builds using `babel-plugin-lodash` & `lodash-webpack-plugin`.
 - [**preact-cli-postcss**](https://github.com/SaraVieira/preact-cli-postcss): Replaces default PostCSS config with your `postcss.config.js`
+- [**preact-cli-plugin-flow**](https://github.com/SaraVieira/preact-cli-flow): Add `flow` support in your project and scaffhold a `.flowconfig`.
+- [**preact-cli-typescript**](https://github.com/wub/preact-cli-plugin-typescript): Adds `typescript` support to your preact project.
